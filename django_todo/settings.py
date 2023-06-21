@@ -30,11 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '8000-jpclarke-hellodjango-8j9yyb9kf2c.ws-eu99.gitpod.io',
-    '8000-jpclarke-hellodjango-8j9yyb9kf2c.ws-eu100.gitpod.io',
-    'django-todo-app-jc-5dd6df3557ba.herokuapp.com'
-]
+ALLOWED_HOSTS = ['django-todo-app-jc-5dd6df3557ba.herokuapp.com']
 
 
 # Application definition
